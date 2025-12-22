@@ -110,3 +110,98 @@ const promotionSlideContainer = new Splide('.promotion-slide-container', {
 });
 
 promotionSlideContainer.mount();
+
+
+const yourBodyChagaSlide = new Splide('.your-body-chaga-slide', {
+    type: 'loop',
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+    arrows: false,
+    pagination: false,
+    perPage: 3,
+    gap: "22px",
+     breakpoints: {
+
+        1024: {perPage: 2},
+        768: {
+            perPage: 1,
+            padding: "2rem",
+            gap: "10px",
+            pagination: true,
+        },
+        400: {
+            perPage: 1,
+            padding: "2rem",
+            gap: "10px",
+            pagination: true,
+        },
+    }
+});
+
+yourBodyChagaSlide.mount();
+
+const dailyRoutineSlide = new Splide('.daily-routine-slide', {
+    type: 'loop',
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+    arrows: false,
+    pagination: false,
+    perPage: 3,
+    gap: "22px",
+     breakpoints: {
+
+        1024: {perPage: 2},
+        768: {
+            perPage: 1,
+            padding: "2rem",
+            gap: "10px",
+            pagination: true,
+        },
+        400: {
+            perPage: 1,
+            padding: "2rem",
+            gap: "10px",
+            pagination: true,
+        },
+    }
+});
+
+dailyRoutineSlide.mount();
+
+
+const storiesSlideContainer = new Splide('.stories-slide-container', {
+    type: 'loop',
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+    arrows: false,
+    pagination: false,
+    perPage: 3,
+    gap: "22px",
+     breakpoints: {
+
+        1024: {perPage: 2},
+        768: {
+            perPage: 1,
+            padding: "2rem",
+            gap: "10px",
+            pagination: true,
+        },
+        400: {
+            perPage: 1,
+            padding: "2rem",
+            gap: "10px",
+            pagination: true,
+        },
+    }
+});
+
+storiesSlideContainer.mount();
+
+
+const currentYear = document.getElementById('currentYear');
+let date = new Date();
+date = date.getFullYear();
+currentYear.textContent = date;
