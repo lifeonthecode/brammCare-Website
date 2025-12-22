@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        :root {
+            --brand-bg: #f8fafb;
+            --brand-text: #0f172a;
+            /* slate-900 */
+            --muted-text: #475569;
+            /* slate-600 */
+            --accent: #0ea5e9;
+            /* sky-500 */
+        }
+
+        body {
+            background: var(--brand-bg);
+            color: var(--brand-text);
+        }
+
+        .product-container {
+            max-width: 900px;
+            margin: 48px auto;
+            padding: 24px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+        }
+
+        .product-header {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .product-image {
+            width: 280px;
+            height: 220px;
+            background: linear-gradient(135deg, #e0f2fe, #f1f5f9);
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            color: var(--muted-text);
+            font-weight: 600;
+            letter-spacing: 0.2px;
+        }
+
+        .product-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .product-subtitle {
+            color: var(--muted-text);
+            margin-top: 4px;
+        }
+
+        .accordion-button {
+            font-weight: 600;
+            color: var(--brand-text);
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #f8fafc;
+            color: var(--brand-text);
+            box-shadow: inset 0 -1px 0 rgba(15, 23, 42, 0.06);
+        }
+
+        .section-heading {
+            font-weight: 700;
+            font-size: 1.05rem;
+            margin-bottom: 8px;
+        }
+
+        .benefit-block+.benefit-block {
+            margin-top: 16px;
+        }
+
+        .benefit-title {
+            font-weight: 700;
+            color: var(--brand-text);
+            margin-bottom: 4px;
+        }
+
+        .benefit-text {
+            color: var(--muted-text);
+            margin: 0;
+        }
+
+        .badge-pill {
+            background: #e0f2fe;
+            color: #0369a1;
+            border: 1px solid #bae6fd;
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-container">
+        <div class="product-header">
+            <div class="product-image"> <!-- Replace with actual image --> Chaga Mushrooms </div>
+            <div>
+                <h1 class="product-title">Chaga Mushroom Extract</h1>
+                <p class="product-subtitle">Pure, sustainably sourced. Antioxidant-rich support for daily wellness.</p>
+                <span class="badge-pill">King of Medicinal Mushrooms</span>
+            </div>
+        </div>
+        <div class="mt-4 accordion accordion-flush" id="accordionChaga"> <!-- Why Chaga? (expanded by default) -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingWhy"> <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseWhy" aria-expanded="true"
+                        aria-controls="collapseWhy"> Why Chaga? </button> </h2>
+                <div id="collapseWhy" class="accordion-collapse collapse show" aria-labelledby="headingWhy"
+                    data-bs-parent="#accordionChaga">
+                    <div class="accordion-body">
+                        <div class="benefit-block">
+                            <div class="benefit-title">Immune Support</div>
+                            <p class="benefit-text">Rich in beta-glucans and antioxidants to help strengthen your body’s
+                                natural defenses.</p>
+                        </div>
+                        <div class="benefit-block">
+                            <div class="benefit-title">Digestive Harmony</div>
+                            <p class="benefit-text">Promotes a healthy gut microbiome for better digestion and nutrient
+                                absorption.</p>
+                        </div>
+                        <div class="benefit-block">
+                            <div class="benefit-title">Energy & Vitality</div>
+                            <p class="benefit-text">Naturally boosts energy without caffeine or crashes, keeping you
+                                focused.</p>
+                        </div>
+                        <div class="benefit-block">
+                            <div class="benefit-title">Pure & Natural</div>
+                            <p class="benefit-text">Sustainably sourced and free from artificial additives for safe
+                                daily support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Ingredients -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingIngredients"> <button class="accordion-button collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseIngredients"
+                        aria-expanded="false" aria-controls="collapseIngredients"> Ingredients </button> </h2>
+                <div id="collapseIngredients" class="accordion-collapse collapse" aria-labelledby="headingIngredients"
+                    data-bs-parent="#accordionChaga">
+                    <div class="accordion-body">
+                        <div class="section-heading">What’s inside</div>
+                        <ul class="mb-0">
+                            <li>Wild-harvested Chaga extract (fruiting body)</li>
+                            <li>Hot water and alcohol dual-extraction for bioavailability</li>
+                            <li>Vegetable capsule (hypoallergenic)</li>
+                            <li>No fillers, binders, or additives</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- How to Take? -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingHow"> <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseHow" aria-expanded="false"
+                        aria-controls="collapseHow"> How to Take? </button> </h2>
+                <div id="collapseHow" class="accordion-collapse collapse" aria-labelledby="headingHow"
+                    data-bs-parent="#accordionChaga">
+                    <div class="accordion-body">
+                        <div class="section-heading">Suggested use</div>
+                        <ul class="mb-0">
+                            <li>Take 1–2 capsules daily with water or tea.</li>
+                            <li>Best taken with food for gentle digestion.</li>
+                            <li>Consistency matters—use daily for 4–6 weeks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- Shipping & Returns -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingShipping"> <button class="accordion-button collapsed"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseShipping" aria-expanded="false"
+                        aria-controls="collapseShipping"> Shipping & Returns </button> </h2>
+                <div id="collapseShipping" class="accordion-collapse collapse" aria-labelledby="headingShipping"
+                    data-bs-parent="#accordionChaga">
+                    <div class="accordion-body">
+                        <div class="section-heading">Policy overview</div>
+                        <ul class="mb-0">
+                            <li>Ships within 1–2 business days.</li>
+                            <li>Tracking provided via email/SMS.</li>
+                            <li>30-day return window for unopened items.</li>
+                            <li>Support available for damaged or missing deliveries.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

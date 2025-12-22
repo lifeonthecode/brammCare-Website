@@ -284,7 +284,7 @@ h6 {
 }
 
 
-.chaga-mushroom-right-wrapper-product-bundle > p {
+.chaga-mushroom-right-wrapper-product-bundle>p {
     font-family: var(--helvetica-neue);
     font-size: 20px;
     font-weight: 400;
@@ -299,6 +299,7 @@ h6 {
     border: .75px solid rgba(0, 0, 0, 0.5);
     border-radius: 7.5px;
 }
+
 .chaga-mushroom-right-wrapper-product-item.active {
     background: #e4f5a1;
     border: 2px solid #000000;
@@ -348,7 +349,7 @@ h6 {
     line-height: 24px;
 }
 
-.chaga-mushroom-right-wrapper-product-item.active > .chaga-mushroom-right-wrapper-product-item-info p{
+.chaga-mushroom-right-wrapper-product-item.active>.chaga-mushroom-right-wrapper-product-item-info p {
     color: #000000;
 }
 
@@ -375,7 +376,7 @@ h6 {
 
 .chaga-mushroom-right-wrapper-product-bundle-subscribe {
     width: 100%;
-    height: 240px;
+    min-height: 240px;
     background: #E4F5A1;
     border: 2px solid #000000;
     border-radius: 12px;
@@ -387,11 +388,12 @@ h6 {
     border-bottom: 1px solid #000000;
 }
 
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left, .chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right {
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left,
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right {
     gap: 9px;
 }
 
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left span  {
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left span {
     width: 27px;
     height: 27px;
     border: 2px solid #000000;
@@ -400,7 +402,8 @@ h6 {
     align-items: center;
     justify-content: center;
 }
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left span > span {
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left span>span {
     width: 15px;
     height: 15px;
     background: #000000;
@@ -408,7 +411,8 @@ h6 {
 }
 
 
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left > div > h4, .chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right h4 {
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left>div>h4,
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right h4 {
     font-family: var(--helvetica-neue);
     font-size: 20px;
     font-weight: 500;
@@ -416,30 +420,221 @@ h6 {
     text-transform: capitalize;
 }
 
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left p, .chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right p {
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left p,
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right p {
     font-family: var(--helvetica-neue);
     font-weight: 400;
     color: #08122a;
     line-height: 30px;
 }
 
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom  {
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom {
     padding: 0px;
     padding-top: 16px;
     gap: 18px;
 }
-.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom li  {
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom li {
     font-size: 20px;
     font-weight: 400;
     font-family: var(--helvetica-neue);
     color: #000000;
     gap: 12px;
 }
+
 .chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom li img {
     width: 22px;
     height: 22px;
     object-fit: cover;
 }
+
+.chaga-mushroom-right-wrapper-one-time-purchase {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.chaga-mushroom-right-wrapper-one-time-purchase-box {
+    gap: 12.5px;
+    padding: 21px 22px;
+    border-radius: 7.5px;
+    border: 0.75px solid rgba(0, 0, 0, 0.1);
+}
+
+.chaga-mushroom-right-wrapper-one-time-purchase-box input,
+input[type="radio"] {
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    background: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    color: #cfcfcf;
+    accent-color: #000000;
+}
+
+.chaga-mushroom-right-wrapper-one-time-purchase-box h4 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #545454;
+    font-family: var(--helvetica-neue);
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart p {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    font-family: var(--helvetica-neue);
+    background: #76E9530D;
+    border-radius: 12px;
+    margin-top: 19px;
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart>span {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #76E953;
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart button {
+    width: 100%;
+    padding: 30px 20px;
+    background: #E4F5A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--helvetica-neue);
+    color: #000000;
+    text-transform: capitalize;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    gap: 9px;
+
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart button span {
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #000000;
+    font-weight: var(--helvetica-neue);
+    margin-top: 22px;
+}
+
+.chaga-mushroom-right-wrapper-add-to-cart a img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+
+.chaga-mushroom-right-wrapper-accordion > .accordion > .accordion-item > .accordion-header > .accordion-button::after {
+    content: "";
+    /* Remove default arrow */
+    background-image: url('../images/icons/plus.png');
+    /* Custom down arrow */
+    /* background-size: 1.5rem; */
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion > .accordion-item > .accordion-header > .accordion-button:not(.collapsed)::after {
+    background-image: url('../images/icons/minus.png');
+    /* Custom up arrow */
+    transform: rotate(180deg);
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion > .accordion-item > .accordion-header > .accordion-button:hover {
+    background-color: transparent;
+    /* hover background */
+    color: black;
+    /* hover text color */
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion {
+    border: none !important;
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion > .accordion-item > .accordion-header > .accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion > .accordion-item {
+    box-shadow: none !important;
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion > .accordion-item > .accordion-header > .accordion-button:not(.collapsed) {
+    color: #08122a !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion {
+    gap: 20px;
+}
+
+.chaga-mushroom-right-wrapper-accordion > .accordion >  .accordion-item{
+    border: 1px solid #000000;
+    border-radius: 7.5px;
+}
+
+.accordion-button {
+    font-size: 20px;
+    font-weight: 500;
+    color: #08122a;
+    font-family: var(--helvetica-neue);
+    text-transform: capitalize;
+}
+.accordion-body {
+    gap: 24px;
+}
+
+.accordion-body > p, .accordion-inner p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 27px;
+    font-family: var(--helvetica-neue);
+}
+
+.accordion-body > .accordion-inner h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: capitalize;
+    font-family: var(--helvetica-neue);
+}
+
+
+
+
+
 
 
 
