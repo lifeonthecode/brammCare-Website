@@ -67,3 +67,46 @@ const ourCustomerReviewsSlide = new Splide('.our-customer-reviews-slide', {
 });
 
 ourCustomerReviewsSlide.mount();
+
+
+
+const brandSlideContainer = new Splide('.brand-slide-container', {
+    type: 'loop',
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+    arrows: false,
+    pagination: false,
+    perPage: 8,
+    gap: "22px",
+    padding: "4rem",
+    breakpoints: {
+
+        1024: { perPage: 4, padding: "1rem", },
+        768: { perPage: 1, padding: "0rem", },
+        400: { perPage: 1, padding: "3rem", },
+    }
+});
+
+brandSlideContainer.mount();
+
+
+const promotionSlideContainer = new Splide('.promotion-slide-container', {
+    type: 'loop',
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+    arrows: false,
+    pagination: false,
+    perPage: 8,
+    gap: "22px",
+    padding: "4rem",
+    breakpoints: {
+
+        1024: { perPage: 4, padding: "1rem", },
+        768: { perPage: 1, padding: "0rem", },
+        400: { perPage: 1, padding: "3rem", },
+    }
+});
+
+promotionSlideContainer.mount();
