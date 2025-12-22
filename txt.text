@@ -1,0 +1,193 @@
+<!-- CHAGA MUSHROOM SECTION START  -->
+    <section class="chaga-mushroom-section d-flex items-center justify-content-center w-100">
+        <div class="container">
+            <!-- CHAGA MUSHROOM CONTENT CONTAINER  -->
+            <div class="chaga-mushrom-container d-flex flex-md-row flex-column justify-content-between">
+                <!-- CHAGA MUSHROOM LEFT WRAPPER  -->
+                <div class="chaga-mushroom-left-wrapper d-flex-flex-column">
+                    <!-- CHAGA MUSHROOM PRODUCT SLIDER WRAPPER -->
+                    <div class="chaga-mushroom-slider-container">
+
+                        <div class="splide chaga-mushroom-slider" aria-label="chaga mushroom slider container">
+                            <div class="splide__track h-100 w-100">
+                                <ul class="splide__list h-100 w-100">
+                                    <!-- SLIDE ITEM  -->
+                                    <li class="splide__slide h-100 w-100">
+                                        <div
+                                            class="chaga-mushroom-slide-item d-flex flex-column align-items-center justify-content-evenly h-100 w-100">
+                                            <h4>restore balance, <span>boost wellness</span></h4>
+
+                                            <div
+                                                class="chaga-mushroom-slide-item-inner d-flex align-items-center h-100 w-100">
+                                                <img src="./assets/images/products/slide_product.png"
+                                                    alt="restore balance, boost wellness">
+
+                                                <div class="chaga-mushroom-slide-item-inner-info d-flex flex-column">
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- SLIDE ITEM  -->
+                                    <li class="splide__slide h-100 w-100">
+                                        <div
+                                            class="chaga-mushroom-slide-item d-flex flex-column align-items-center justify-content-evenly h-100 w-100">
+                                            <h4>restore balance, <span>boost wellness</span></h4>
+
+                                            <div
+                                                class="chaga-mushroom-slide-item-inner d-flex align-items-center h-100 w-100">
+                                                <img src="./assets/images/products/slide_product.png"
+                                                    alt="restore balance, boost wellness">
+
+                                                <div class="chaga-mushroom-slide-item-inner-info d-flex flex-column">
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- SLIDE ITEM  -->
+                                    <li class="splide__slide h-100 w-100">
+                                        <div
+                                            class="chaga-mushroom-slide-item d-flex flex-column align-items-center justify-content-evenly h-100 w-100">
+                                            <h4>restore balance, <span>boost wellness</span></h4>
+
+                                            <div
+                                                class="chaga-mushroom-slide-item-inner d-flex align-items-center h-100 w-100">
+                                                <img src="./assets/images/products/slide_product.png"
+                                                    alt="restore balance, boost wellness">
+
+                                                <div class="chaga-mushroom-slide-item-inner-info d-flex flex-column">
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+
+                                                    <div
+                                                        class="chaga-mushroom-slide-item-inner-info-item d-flex align-items-center">
+                                                        <div class="chaga-mushroom-slide-item-inner-info-item-image">
+                                                            <img src="./assets/images/icons/supports-icon.png" alt="">
+                                                        </div>
+                                                        <h5>supports gut and immune health</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CHAGA MUSHROOM WRAPPER  -->
+                <div class="chaga-mushroom-right-wrapper">
+                    <!-- REVIEW WRAPPER  -->
+                    <div class="chaga-mushroom-right-wrapper-review d-flex align-items-center">
+                        <div class="chaga-mushroom-right-wrapper-review-stars d-flex align-items-center">
+                            <img src="./assets/images/icons/star.png" alt="star">
+                            <img src="./assets/images/icons/star.png" alt="star">
+                            <img src="./assets/images/icons/star.png" alt="star">
+                            <img src="./assets/images/icons/star.png" alt="star">
+                            <img src="./assets/images/icons/star.png" alt="star">
+                        </div>
+                        <h5>rated 4.9 / 5.0 | 350+ reviews</h5>
+                    </div>
+
+                    <h3>chaga mushroom</h3>
+                    <p>Crafted with organic Chaga to boost immunity and deliver powerful antioxidants, keeping your body
+                        resilient and strong.</p>
+
+                    <!-- INFO WRAPPER  -->
+                    <div class="chaga-mushroom-right-wrapper-info d-flex flex-column">
+                        <div class="chaga-mushroom-right-wrapper-info-item d-flex align-items-center">
+                            <div
+                                class="chaga-mushroom-right-wrapper-info-item-image d-flex align-items-center justify-content-center">
+                                <img src="./assets/images/icons/mushroom.png" alt="">
+                            </div>
+                            <h5>Boosts Immunity with Powerful Antioxidants</h5>
+                        </div>
+                        <div class="chaga-mushroom-right-wrapper-info-item d-flex align-items-center">
+                            <div
+                                class="chaga-mushroom-right-wrapper-info-item-image d-flex align-items-center justify-content-center">
+                                <img src="./assets/images/icons/mushroom.png" alt="">
+                            </div>
+                            <h5>Supports Gut Health and Balance</h5>
+                        </div>
+
+                        <div class="chaga-mushroom-right-wrapper-info-item d-flex align-items-center">
+                            <div
+                                class="chaga-mushroom-right-wrapper-info-item-image d-flex align-items-center justify-content-center">
+                                <img src="./assets/images/icons/mushroom.png" alt="">
+                            </div>
+                            <h5>Made with Pure, Organic Chaga</h5>
+                        </div>
+                    </div>
+
+                    <!-- PRICE  -->
+                     <div class="chaga-mushroom-right-wrapper-price">
+                        <p>$70.00 <span class="text-decoration-line-through">$78.00</span> <button>save $8.00</button></p>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CHAGA MUSHROOM SECTION END -->

@@ -1,0 +1,477 @@
+/* THIS IS A  IF I DON'T REMEMBER. DON'T WORRY  */
+:root {
+    --color-primary: #4CAF50;
+    --color-secondary: linear-gradient(#e7f3aa, #e3f099);
+    --color-accent: #FF5722;
+    --color-text: #212121;
+    --color-bg: #F5F5F5;
+
+    /* TYPOGRAPHY  */
+    --helvetica-neue: "Helvetica Neue";
+    --itc-clearface-std: "ITC Clearface Std";
+    --avenir-regular: "Avenir Regular";
+}
+
+
+/* DEFAULT STYLE  */
+button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+menu,
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header_section {
+    gap: 32px;
+}
+
+.header-money-back-banner {
+    width: 100%;
+    height: 41px;
+    background: var(--color-secondary);
+}
+
+.header-money-back-banner h4 {
+    font-family: var(--helvetica-neue);
+    font-size: 21px;
+    text-transform: lowercase;
+    color: black;
+    gap: 9px;
+}
+
+.header-money-back-banner h4 img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.header-middle-wrapper button:first-child img {
+    width: 31px;
+    height: 31px;
+    object-fit: contain;
+}
+
+.header-middle-wrapper button:last-child img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.logo-wrapper img {
+    max-width: 99px;
+    width: 100%;
+    height: 27px;
+    object-fit: cover;
+}
+
+/* SPLIDE JS SLIDER WRAPPER  */
+.header_slide_container {
+    width: 100%;
+    height: 41px;
+    background: var(--color-secondary);
+}
+
+.header_slide_item {
+    gap: 15px;
+}
+
+.header_slide_item img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.header_slide_item h4 {
+    font-family: var(--helvetica-neue);
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+}
+
+
+/* CHAGA MUSHROOM SECTION START  */
+.chaga-mushroom-section {
+    padding-top: 50px;
+}
+
+
+.chaga-mushroom-slide-item {
+    width: 100%;
+    max-height: 744px;
+    height: 100%;
+}
+
+.chaga-mushroom-slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chaga-mushroom-slider>.splide__arrows>.splide__arrow {
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fafafa;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    width: 52px !important;
+    height: 52px !important;
+    /* -ms-flex-pack: center;
+    justify-content: center;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+    */
+}
+
+.chaga-mushromm-product-detail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* CHAGA MUSHROOM RIGHT SIDE WRAPPER  */
+.chaga-mushroom-right-wrapper-review {
+    max-width: 399px;
+    width: 100%;
+    background: #e9ecf5;
+    padding: 7px 13px;
+    border-radius: 6px;
+    border: 0.75 solid #000000;
+    gap: 15px;
+}
+
+.chaga-mushroom-right-wrapper-review>h5 {
+    font-size: 18px;
+    font-family: var(--helvetica-neue);
+    font-weight: 500;
+    color: #08122a;
+    text-transform: capitalize;
+}
+
+.chaga-mushroom-right-wrapper-review>h5>span {
+    font-weight: 400;
+}
+
+.chaga-mushroom-right-wrapper-review-stars {
+    gap: 3px;
+}
+
+.chaga-mushroom-right-wrapper-review-stars img {
+    width: 19px;
+    height: 19px;
+    object-fit: cover;
+}
+
+.chaga-mushroom-right-wrapper h3 {
+    font-family: var(--itc-clearface-std);
+    font-size: 36px;
+    font-weight: 550;
+    font-style: bold;
+    color: #08122a;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.chaga-mushroom-right-wrapper>p {
+    font-family: var(--helvetica-neue);
+    font-size: 20px;
+    color: #08122a;
+    margin-bottom: 30px;
+}
+
+.chaga-mushroom-right-wrapper-info {
+    gap: 28px;
+    padding-bottom: 22px;
+}
+
+.chaga-mushroom-right-wrapper-info-item {
+    gap: 13px;
+}
+
+.chaga-mushroom-right-wrapper-info-item h5 {
+    font-family: var(--helvetica-neue);
+    font-size: 20px;
+    font-weight: 500;
+    color: #08122a;
+    text-transform: capitalize;
+}
+
+.chaga-mushroom-right-wrapper-info-item-image {
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    border: 1.13px solid #000000;
+}
+
+.chaga-mushroom-right-wrapper-info-item-image img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.chaga-mushroom-right-wrapper-price {
+    padding: 18px 0px;
+    border-top: 0.75px solid #000000;
+    border-bottom: 0.75px solid #000000;
+}
+
+.chaga-mushroom-right-wrapper-price>p {
+    font-family: var(--helvetica-neue);
+    font-weight: 500;
+    font-size: 27px;
+    color: #6d4fa5;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.chaga-mushroom-right-wrapper-price>p>span {
+    color: #85858599;
+}
+
+.chaga-mushroom-right-wrapper-price>p>button {
+    padding: 11px 20px;
+    border-radius: 7.5px;
+    font-family: var(--helvetica-neue);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    background: #6D4FA5;
+    cursor: pointer;
+}
+
+
+.chaga-mushroom-right-wrapper-product-bundle {
+    margin-top: 30px;
+    gap: 30px;
+}
+
+
+.chaga-mushroom-right-wrapper-product-bundle > p {
+    font-family: var(--helvetica-neue);
+    font-size: 20px;
+    font-weight: 400;
+    color: #08122a;
+    padding-bottom: 18px;
+}
+
+.chaga-mushroom-right-wrapper-product-item {
+    width: 100%;
+    height: 276px;
+    background: white;
+    border: .75px solid rgba(0, 0, 0, 0.5);
+    border-radius: 7.5px;
+}
+.chaga-mushroom-right-wrapper-product-item.active {
+    background: #e4f5a1;
+    border: 2px solid #000000;
+}
+
+.chaga-mushroom-right-wrapper-product-item img {
+    min-width: 55px;
+    width: 100%;
+    height: 126px;
+    object-fit: contain;
+}
+
+.chaga-mushroom-right-wrapper-product-item-info {
+    gap: 9px;
+}
+
+.chaga-mushroom-right-wrapper-product-item-info h4 {
+    font-family: var(--helvetica-neue);
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.chaga-mushroom-right-wrapper-product-item-info span {
+    padding: 6px 9px;
+    background: #6D4FA5;
+    font-size: 12px;
+    font-family: var(--helvetica-neue);
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 4.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.chaga-mushroom-right-wrapper-product-item-info p {
+    font-size: 18px;
+    font-family: var(--helvetica-neue);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.chaga-mushroom-right-wrapper-product-item.active > .chaga-mushroom-right-wrapper-product-item-info p{
+    color: #000000;
+}
+
+.chaga-mushroom-right-wrapper-product-item-status {
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px 6px;
+    background: #6D4FA5;
+    border: 1px solid #000000;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: var(--helvetica-neue);
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.chaga-mushroom-right-wrapper-product-item-status.best_value {
+    background: #3540B7;
+}
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe {
+    width: 100%;
+    height: 240px;
+    background: #E4F5A1;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 17px 24px;
+}
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000000;
+}
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left, .chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right {
+    gap: 9px;
+}
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left span  {
+    width: 27px;
+    height: 27px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left span > span {
+    width: 15px;
+    height: 15px;
+    background: #000000;
+    border-radius: 100%;
+}
+
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left > div > h4, .chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right h4 {
+    font-family: var(--helvetica-neue);
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-top-left p, .chaga-mushroom-right-wrapper-product-bundle-subscribe-top-right p {
+    font-family: var(--helvetica-neue);
+    font-weight: 400;
+    color: #08122a;
+    line-height: 30px;
+}
+
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom  {
+    padding: 0px;
+    padding-top: 16px;
+    gap: 18px;
+}
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom li  {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--helvetica-neue);
+    color: #000000;
+    gap: 12px;
+}
+.chaga-mushroom-right-wrapper-product-bundle-subscribe-bottom li img {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+}
+
+
+
+/* DEVICES RESPONSIVE QUERY */
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .chaga-mushroom-right-wrapper-info-item h5 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .header-money-back-banner h4,
+    .header_slide_item h4 {
+        font-size: 14px;
+    }
+}
